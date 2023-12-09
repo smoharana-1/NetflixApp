@@ -1,0 +1,130 @@
+body{
+    background:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapers.com%2Fbackground%2Fnetflix-background-gs7hjuwvv2g0e9fj.html&psig=AOvVaw1DiAc6x_Aho7o39wvM82Gj&ust=1700201509770000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCmparux4IDFQAAAAAdAAAAABAE);
+    
+    background-size: 1350px 650px;
+background-repeat: no-repeat;
+box-sizing: border-box;
+background-color: rgb(39, 34, 34);
+color: aliceblue;
+}
+nav{
+display: flex;
+justify-content: center;
+justify-content: space-around;
+}
+nav  .img img{
+width: 12%;
+margin-top: -20px;
+}
+nav .btn{
+display: flex;
+margin-top: 12px;
+}
+.btn .eng{
+    width: 120pxpx;
+    height: 40px;
+    background-color: aliceblue;
+color: black;
+font-size: 19px;
+border: 2px solid white;
+margin-bottom: 20px;
+margin-left: 70px;
+
+}
+.btn .eng:hover{
+    background-color: transparent;
+
+}
+.btn.sign:hover{
+    background-color: transparent;
+    border: 3px solid red;
+}
+.btn .sign{
+    width: 90px;
+    height: 40px;
+    background-color: red;
+    color: aliceblue;
+    font-size: 19px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 20px;
+}
+.btn .eng{
+    margin-inline: 22px;
+}
+
+main{
+    text-align: center;
+}
+main h1{
+font-size: 50px;
+text-align: center;
+}
+main h3{
+    font-size: 44px;
+}
+main p{
+font-size: 22px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+.input input{
+width: 300px;
+height: 58px;
+border: none;
+font-size: 22px;
+}
+.input input{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(225,11,11);
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 200px;
+    padding: 66px;
+    border-color: 6px solid red;
+}
+.first h1{
+    font-size: 40px;
+    text-align: center;
+}
+.first p{
+    font-size: 25px;
+}
+.first img{
+    width: 60%;
+    margin-right: 20px;
+    
+}
+.buttons h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+    margin-left: 30%;
+}
+.button button{
+    width: 600px;
+    height: 60px;
+    background-color: beige;
+    color: darkblue;
+    font-size: 22px;
+    margin-left: 30%;
+    text-align: left;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 23px;
+    border-top: 2px solid greenyellow;
+    margin-top: 2s3px;
+}
